@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Condensed:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#total {
+    background: linear-gradient(to bottom, rgba(248, 213, 184, 0.9), rgba(223, 250, 215, 0.664));
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  /* Centraliza horizontalmente */
+    justify-content: center;  /* Centraliza verticalmente */
+    gap: 10px;  /* Ajusta a distância entre os elementos */
+}
+
+#logo {
+    background-color: rgba(252, 252, 252, 0.315);
+    padding: 32px;
+    border-radius: 50%;
+    height: 20vh;
+    width: 20vh;
+}
+
+h1 {
+    color: aliceblue;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 20vw;
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+    background-color: #46d868;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+  
+button:hover {
+    background-color: #4bcf6a;
+}
+
+#infos {
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;  /* Ajusta o espaço entre os itens dentro de #infos */
+    margin-bottom: 20px;  /* Controla o espaço entre #infos e o nav */
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+p {
+    color: rgb(25, 26, 27);
+    font-family: 'Montserrat', sans-serif; /* Mesma fonte do h1 */
+    font-size: medium;
+}
+
+#footer {
+    width: 100%;
+    text-align: center; 
+    padding: 20px 0; 
+    background-color: #dffce6;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    bottom: 0;
+}
+
+#footer p {
+    margin: 0;
+    font-size: 1rem;
+}
